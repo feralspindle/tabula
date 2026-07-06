@@ -1,0 +1,38 @@
+{
+  "name": "tabula agent sandbox",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "remoteUser": "node",
+  "runArgs": [
+    "--cap-add=NET_ADMIN",
+    "--cap-add=NET_RAW",
+    "--memory=8g",
+    "--cpus=4",
+    "--pids-limit=2048",
+    "--add-host=host.docker.internal:host-gateway"
+  ],
+  "mounts": [
+    "source=tabula-${localWorkspaceFolderBasename}-rust-target,target=${containerWorkspaceFolder}/target,type=volume",
+    "source=tabula-${localWorkspaceFolderBasename}-web-node-modules,target=${containerWorkspaceFolder}/web/node_modules,type=volume",
+    "source=tabula-cargo-registry,target=/home/node/.cargo/registry,type=volume"
+  ],
+  "containerEnv": {
+    "DATABASE_URL": "postgresql://postgres:postgres@host.docker.internal:54322/tabula_test",
+    "SUPABASE_URL": "http://host.docker.internal:54321"
+  },
+  "remoteEnv": {
+    "ANTHROPIC_API_KEY": "${localEnv:CLAUDE_SANDBOX_API_KEY}",
+    "OPENAI_API_KEY": "${localEnv:CODEX_SANDBOX_API_KEY}",
+    "OPENROUTER_API_KEY": "${localEnv:OPENROUTER_SANDBOX_API_KEY}"
+  },
+  "forwardPorts": [5173, 8080],
+  "postCreateCommand": "sudo /usr/local/bin/post-create-root.sh && cd web && npm ci",
+  "postStartCommand": "sudo /usr/local/bin/init-firewall.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["Vue.volar", "rust-lang.rust-analyzer"]
+    }
+  }
+}
