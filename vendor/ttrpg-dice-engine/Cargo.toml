@@ -1,0 +1,30 @@
+[package]
+name = "ttrpg-dice-engine"
+version = "0.1.0"
+edition = "2021"
+description = "dice notation parser, roller, & probability engine for TTRPGs"
+license = "MIT"
+repository = "https://tangled.org/spacefrog.dev/ttrpg-dice-engine"
+keywords = ["dice", "ttrpg", "rpg", "probability", "tabletop"]
+categories = ["games", "mathematics"]
+readme = "README.md"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rand = { version = "0.8", features = ["small_rng"] }
+thiserror = "1"
+postgres = { version = "0.19", features = ["with-serde_json-1"], optional = true }
+tokio-postgres-rustls = { version = "0.12", optional = true }
+rustls = { version = "0.23", default-features = false, features = ["ring", "std", "tls12"], optional = true }
+dotenvy = { version = "0.15", optional = true }
+
+[features]
+# Enables the session_analysis binary to fetch rolls directly from the
+# Supabase Postgres database via DATABASE_URL. Uses rustls for TLS because
+# macOS's native TLS rejects Supabase's long-lived certificates.
+supabase = ["dep:postgres", "dep:tokio-postgres-rustls", "dep:rustls", "dep:dotenvy"]
+
+[[bin]]
+name = "session_analysis"
+required-features = ["supabase"]

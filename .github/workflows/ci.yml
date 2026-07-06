@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  native:
+    name: Kernel & core (fmt, clippy, test)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+          targets: wasm32-unknown-unknown
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: wasm-tools
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: |
+            .
+            plugins/counter
+            plugins/shadowdark
+      - run: cargo fmt --all --check
+      - run: cargo clippy --workspace --exclude ttrpg-dice-engine --all-targets -- -D warnings
+      # Build plugin components first so the kernel's runtime integration
+      # tests exercise the real WASM artifacts.
+      - run: ./plugins/build.sh
+      - run: cargo test --workspace
+
+  web:
+    name: Frontend (build)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+        working-directory: web
+      - run: npm run build
+        working-directory: web

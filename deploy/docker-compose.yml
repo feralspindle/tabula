@@ -1,0 +1,40 @@
+# Droplet deployment for the Tabula stack (single box + Cloudflare), ported
+# from hexmapper's deploy. Data volumes use absolute /opt/tabula paths so the
+# repo can be re-cloned/moved without touching the cert, www, or .env.
+
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    image: ${API_IMAGE:-tabula-kernel:local}
+    env_file: /opt/tabula/.env          # DATABASE_URL, SUPABASE_URL, CORS_ALLOWED_ORIGIN, PORT
+    restart: unless-stopped
+    expose:
+      - "8080"                          # internal only — reached by caddy as api:8080
+    volumes:
+      - /opt/tabula/plugins:/app/plugins/dist:ro   # built plugin components
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on:
+      - api
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      DOMAIN: ${DOMAIN:?set DOMAIN in /opt/tabula/.env}
+    volumes:
+      # Directory mount (not the single file): git pull replaces configs via
+      # atomic rename, and a single-file bind mount pins the old inode.
+      - ./:/etc/caddy/conf:ro
+      - /opt/tabula/certs:/etc/caddy/certs:ro   # Cloudflare Origin cert: origin.pem + origin.key
+      - /opt/tabula/www:/srv/www:ro             # CI rsyncs the built SPA here
+      - caddy_data:/data
+      - caddy_config:/config
+    command: caddy run --config /etc/caddy/conf/Caddyfile --adapter caddyfile
+
+volumes:
+  caddy_data:
+  caddy_config:

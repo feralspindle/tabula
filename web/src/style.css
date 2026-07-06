@@ -1,0 +1,131 @@
+@import 'tailwindcss';
+
+/* ————— Tabula: the arcane ledger —————
+   Dark slate ink, warm bone text, ember accent. Fraunces for display,
+   Spectral for body, IBM Plex Mono for the ledger (seq, dice, log). */
+
+@theme {
+  --font-display: 'Fraunces', 'Georgia', serif;
+  --font-body: 'Spectral', 'Georgia', serif;
+  --font-ledger: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --color-ink-950: #100e0c;
+  --color-ink-900: #171412;
+  --color-ink-800: #1f1b18;
+  --color-ink-700: #2a2521;
+  --color-ink-600: #3a332d;
+  --color-ink-500: #55493f;
+
+  --color-bone-100: #ece3d3;
+  --color-bone-300: #cfc2ab;
+  --color-bone-500: #a4957c;
+  --color-bone-700: #6f6352;
+
+  --color-ember-400: #e08e57;
+  --color-ember-500: #d3763a;
+  --color-ember-600: #b25d28;
+
+  --color-verdigris-400: #7fa89a;
+  --color-verdigris-600: #4e7265;
+
+  --color-blood-500: #b0413e;
+}
+
+html {
+  background: var(--color-ink-950);
+  color: var(--color-bone-100);
+  font-family: var(--font-body);
+}
+
+/* Faint parchment grain over the whole app. */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
+}
+
+::selection {
+  background: var(--color-ember-600);
+  color: var(--color-ink-950);
+}
+
+/* Ruled-ledger horizontal keyline used under headings. */
+.rule {
+  height: 1px;
+  background: linear-gradient(90deg, var(--color-ink-500), transparent 85%);
+}
+
+/* Inputs: quiet slate wells that warm on focus. */
+.field {
+  @apply bg-ink-800 border border-ink-600 rounded-sm px-3 py-1.5 text-bone-100
+    placeholder:text-bone-700 outline-none w-full;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+.field:focus {
+  border-color: var(--color-ember-600);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--color-ember-600) 45%, transparent);
+}
+
+.btn-ember,
+.btn-ghost {
+  @apply font-display inline-flex items-center justify-center gap-2 rounded-sm px-4 py-1.5
+    text-sm tracking-wide select-none cursor-pointer;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease;
+}
+.btn-ember {
+  @apply bg-ember-600 text-ink-950;
+}
+.btn-ember:hover {
+  background: var(--color-ember-500);
+}
+.btn-ghost {
+  @apply border border-ink-500 text-bone-300;
+}
+.btn-ghost:hover {
+  border-color: var(--color-ember-600);
+  color: var(--color-ember-400);
+}
+.btn-ember:disabled,
+.btn-ghost:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* Panel: a leaf of the ledger. */
+.panel {
+  @apply bg-ink-900 border border-ink-700 rounded-sm;
+  box-shadow: 0 1px 0 color-mix(in srgb, var(--color-bone-100) 4%, transparent) inset,
+    0 12px 30px -18px rgb(0 0 0 / 0.8);
+}
+
+.panel-title {
+  @apply font-display text-bone-300 text-xs uppercase tracking-[0.22em] px-4 pt-3 pb-2;
+}
+
+/* Staggered reveal on view mount. */
+@keyframes leaf-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+.leaf {
+  animation: leaf-in 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Roll result flare. */
+@keyframes ember-flare {
+  0% { background: color-mix(in srgb, var(--color-ember-600) 32%, transparent); }
+  100% { background: transparent; }
+}
+.flare {
+  animation: ember-flare 1.2s ease-out both;
+}
+
+/* Scrollbars in theme. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-ink-600) transparent;
+}

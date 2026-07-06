@@ -1,0 +1,156 @@
+/// Tabula host ⟷ plugin contract.
+///
+/// OWNER-AUTHORED CONTRACT (irreversible #2 of 3). Transcribed from
+/// docs/ARCHITECTURE.md §4.3; changes require an explicit owner decision.
+///
+/// Determinism rules this interface enforces:
+/// - Plugins are componentized from wasm32-unknown-unknown builds and therefore
+///   have NO WASI imports: no ambient clock, RNG, I/O, or network. Every source
+///   of nondeterminism a plugin can reach is one of the imports below, supplied
+///   and observable by the host.
+/// - `decide` must be a pure function of (command, context, host-import results).
+/// - Replay never calls anything in this file — it folds recorded deltas only.
+package tabula:plugin@0.1.0;
+
+interface types {
+    /// JSON text. MVP wire/value encoding (CBOR is a deferred open question).
+    type json = string;
+
+    /// Host session clock reading, milliseconds since the Unix epoch.
+    record game-time {
+        unix-millis: u64,
+    }
+
+    enum log-level {
+        debug,
+        info,
+        warn,
+        error,
+    }
+
+    /// Result of a host-side dice roll via ttrpg-dice-engine.
+    record roll-result {
+        /// The parsed expression as rolled, e.g. "1d20+3".
+        expr: string,
+        total: s64,
+        /// JSON breakdown (per-die results, kept/dropped, modifiers) suitable
+        /// for embedding in a component value so the log preserves it.
+        detail: json,
+    }
+
+    /// A JSON-Schema definition for one component key the plugin owns.
+    record component-schema {
+        key: string,
+        version: u32,
+        schema: json,
+    }
+
+    /// A command the plugin answers to, with a JSON Schema for its payload.
+    record command-decl {
+        name: string,
+        params-schema: json,
+    }
+
+    /// System: owns the rules, exactly one per session.
+    /// Module: additive content — type reserved, not implemented in the MVP.
+    enum plugin-type {
+        system,
+        module,
+    }
+
+    record plugin-manifest {
+        id: string,
+        version: string,
+        plugin-type: plugin-type,
+        /// Component schemas to register; their key namespaces become the
+        /// plugin's write grants.
+        components: list<component-schema>,
+        commands: list<command-decl>,
+        /// Declarative sheet layout for the generic frontend renderer.
+        sheet-layout: json,
+    }
+
+    /// A client-issued command as the host presents it to `decide`.
+    record command {
+        /// Correlation id (uuid), recorded in the log record's cause.
+        id: string,
+        name: string,
+        /// Issuing user id (uuid).
+        actor: string,
+        actor-is-gm: bool,
+        payload: json,
+    }
+
+    record set-op {
+        entity: string,
+        component: string,
+        value: json,
+    }
+
+    record remove-op {
+        entity: string,
+        component: string,
+    }
+
+    /// Mirror of the host-owned closed Delta vocabulary. The host re-validates
+    /// everything a plugin returns; this type grants no authority.
+    variant delta {
+        spawn(string),
+        despawn(string),
+        set(set-op),
+        remove(remove-op),
+    }
+
+    /// The plugin evaluated the command and refuses it under its game rules.
+    /// Returned to the issuing client only; never logged to the delta log.
+    record rule-error {
+        message: string,
+    }
+}
+
+/// Imports: the only capabilities a plugin has.
+interface host {
+    use types.{game-time, json, log-level, roll-result};
+
+    /// Roll dice notation host-side (host RNG, ttrpg-dice-engine semantics).
+    roll: func(expr: string) -> result<roll-result, string>;
+
+    /// Host-supplied uniform random integer in [min, max], inclusive.
+    random: func(min: u64, max: u64) -> u64;
+
+    /// Host session clock.
+    now: func() -> game-time;
+
+    /// Read one component value from the session projection.
+    get-component: func(entity: string, key: string) -> option<json>;
+
+    /// Entities currently carrying `key`, in id (creation) order. The bounded
+    /// query import for context pulling.
+    entities-with: func(key: string) -> list<string>;
+
+    /// Fresh entity id (uuid v7) minted by the host, so ids stay host-ordered.
+    new-entity-id: func() -> string;
+
+    /// Diagnostics only — routed to host tracing, never to the log.
+    log: func(level: log-level, msg: string);
+}
+
+/// Exports: what the host calls on a plugin.
+interface guest {
+    use types.{command, delta, json, plugin-manifest, rule-error};
+
+    /// Static self-description; called once at load.
+    manifest: func() -> plugin-manifest;
+
+    /// The single rules entry point. Must be pure modulo host imports.
+    decide: func(cmd: command, context: json) -> result<list<delta>, rule-error>;
+
+    /// Schema evolution, run against component values at snapshot load — never
+    /// against the log.
+    migrate: func(key: string, old-version: u32, value: json) -> json;
+}
+
+world system-plugin {
+    import host;
+    export guest;
+}

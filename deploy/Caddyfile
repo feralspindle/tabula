@@ -1,0 +1,33 @@
+# Single-origin: Caddy serves the SPA and reverse-proxies /api (HTTP + WS) to
+# the kernel. Cloudflare sits in front (SSL/TLS "Full (strict)"); Caddy
+# presents the Cloudflare Origin certificate. Ported from hexmapper.
+
+{$DOMAIN} {
+	tls /etc/caddy/certs/origin.pem /etc/caddy/certs/origin.key
+
+	encode zstd gzip
+
+	header {
+		Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https://*.supabase.co https://cdn.discordapp.com; connect-src 'self' wss://{$DOMAIN} https://*.supabase.co wss://*.supabase.co; frame-ancestors 'none'"
+		X-Frame-Options "DENY"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		Permissions-Policy "camera=(), microphone=(), geolocation=()"
+		-Server
+	}
+
+	# Vite emits content-hashed filenames under /assets/* — cache forever.
+	@assets path /assets/*
+	header @assets Cache-Control "public, max-age=31536000, immutable"
+
+	handle /api/* {
+		reverse_proxy api:8080
+	}
+
+	# SPA fallback so client-side routes (e.g. /session/abc) survive refresh.
+	handle {
+		root * /srv/www
+		try_files {path} /index.html
+		file_server
+	}
+}

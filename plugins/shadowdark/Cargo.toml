@@ -1,0 +1,24 @@
+# Shadowdark System plugin — the MVP validation target (spec §6): character
+# sheets (create/edit/roll) and dice resolution, matching hexmapper's
+# character+dice slice.
+[package]
+name = "shadowdark-plugin"
+version = "0.1.0"
+edition = "2021"
+
+# Standalone workspace: plugins compile to wasm32-unknown-unknown and must not
+# join the native workspace's feature unification.
+[workspace]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wit-bindgen = "0.41"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[profile.release]
+opt-level = "s"
+lto = true
+strip = true

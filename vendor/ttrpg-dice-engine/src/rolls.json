@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "1813db1b-0f2d-4329-9620-cfead7088638",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 8
+      }
+    ],
+    "total": 9,
+    "created_at": "2026-06-07 02:24:09.321608+00",
+    "label": "Strength check",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "dab09aa3-e78d-4a03-b8d2-e084e9d689d4",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d20",
+        "value": 20
+      }
+    ],
+    "total": 20,
+    "created_at": "2026-06-07 00:20:17.86802+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "a04604c2-cf60-4047-9654-4d73209cdb8b",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d20",
+        "value": 10
+      }
+    ],
+    "total": 10,
+    "created_at": "2026-06-07 00:20:23.627114+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "6ea066de-6f5e-4b41-a0cc-ca79b97051e7",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 4
+      }
+    ],
+    "total": 7,
+    "created_at": "2026-06-07 00:26:55.736161+00",
+    "label": "Initiative",
+    "character_id": null
+  },
+  {
+    "id": "3b172cf5-4001-49c8-bd81-0ae2f9f92062",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 14
+      }
+    ],
+    "total": 15,
+    "created_at": "2026-06-07 00:29:28.479756+00",
+    "label": "Initiative",
+    "character_id": "60866f9f-b15e-4e43-91e4-4305fa13e588"
+  },
+  {
+    "id": "f9e833f8-5fe6-41e0-a705-ed9bad6caf7d",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 18
+      }
+    ],
+    "total": 19,
+    "created_at": "2026-06-07 00:30:01.412104+00",
+    "label": "Initiative",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "314609f5-5479-488b-8862-8a2e5c7aa735",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 2,
+    "results": [
+      {
+        "die": "d20",
+        "value": 9
+      }
+    ],
+    "total": 11,
+    "created_at": "2026-06-07 00:30:26.910036+00",
+    "label": "Charisma check",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "b887d6be-5b4c-4ba8-ac93-80085d9c288a",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 14
+      }
+    ],
+    "total": 17,
+    "created_at": "2026-06-07 00:30:47.554212+00",
+    "label": "Initiative",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "047ea805-36d3-4379-957c-0cc6dc9f6201",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 11
+      }
+    ],
+    "total": 12,
+    "created_at": "2026-06-07 00:31:39.312954+00",
+    "label": "Charisma check",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "3df76caa-9331-4045-8271-b0f67f197c10",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 14
+      }
+    ],
+    "total": 15,
+    "created_at": "2026-06-07 00:31:39.784402+00",
+    "label": "Charisma check",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "d6a55e63-4529-4215-88fd-5c0750ae4be4",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d20",
+        "value": 18
+      }
+    ],
+    "total": 18,
+    "created_at": "2026-06-07 00:45:58.762644+00",
+    "label": "Wisdom check",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "ec47d2d2-2ece-48d7-a1c2-a7f27dea95fe",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 7
+      }
+    ],
+    "total": 10,
+    "created_at": "2026-06-07 00:47:29.796431+00",
+    "label": "Dexterity check",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "218e404f-a368-4144-a5f5-4ee904d71ea0",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d20",
+        "value": 14
+      }
+    ],
+    "total": 14,
+    "created_at": "2026-06-07 00:47:36.879747+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "94f594df-fa2a-4164-95b0-eb8299e49284",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 8
+      }
+    ],
+    "total": 11,
+    "created_at": "2026-06-07 00:48:29.374961+00",
+    "label": "Dexterity check",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "965be0c6-4256-4273-b9a7-a8768cde0d5f",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d20",
+        "value": 16
+      }
+    ],
+    "total": 16,
+    "created_at": "2026-06-07 00:48:54.710469+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "4c70ca91-b92d-4219-afd9-fb4ce5543e0a",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 2,
+    "results": [
+      {
+        "die": "d20",
+        "value": 10
+      }
+    ],
+    "total": 12,
+    "created_at": "2026-06-07 00:51:00.64913+00",
+    "label": "Charisma check",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "6e0a02aa-7aef-4c66-9eba-5d45e17ef2a6",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 2,
+    "results": [
+      {
+        "die": "d20",
+        "value": 11
+      }
+    ],
+    "total": 13,
+    "created_at": "2026-06-07 00:51:02.106937+00",
+    "label": "Charisma check",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "8f5a7f68-449c-4345-9e1d-3e0ce84e7c79",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 9
+      }
+    ],
+    "total": 12,
+    "created_at": "2026-06-07 00:53:44.13011+00",
+    "label": "Initiative",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "8936fbca-1ab0-4316-9bb7-e87ff9b9be51",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 13
+      }
+    ],
+    "total": 14,
+    "created_at": "2026-06-07 00:53:44.243279+00",
+    "label": "Initiative",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "7813ce07-8311-4db6-9bbf-888042c2b09b",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 11
+      }
+    ],
+    "total": 12,
+    "created_at": "2026-06-07 00:53:48.555309+00",
+    "label": "Initiative",
+    "character_id": "60866f9f-b15e-4e43-91e4-4305fa13e588"
+  },
+  {
+    "id": "1d26f891-bd4b-46cd-b729-e78e489b0e51",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 18
+      }
+    ],
+    "total": 19,
+    "created_at": "2026-06-07 00:54:27.095738+00",
+    "label": "Dexterity check",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "c5e49e43-69d4-49a0-a4c0-3e7c8c4365f2",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 15
+      }
+    ],
+    "total": 18,
+    "created_at": "2026-06-07 00:55:58.890187+00",
+    "label": "Dexterity check",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "3dc791df-5cc2-4d3f-8ef2-7001b14518fe",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 18
+      }
+    ],
+    "total": 21,
+    "created_at": "2026-06-07 00:56:06.519772+00",
+    "label": "DAGGER",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "b39115aa-6785-458a-ad32-5d76a2b5af4e",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 14
+      }
+    ],
+    "total": 17,
+    "created_at": "2026-06-07 00:56:07.577579+00",
+    "label": "DAGGER",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "c7bbe408-280d-428d-bd12-4fc241432762",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d4": 2,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 0,
+      "d100": 0
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d4",
+        "value": 1
+      },
+      {
+        "die": "d4",
+        "value": 2
+      }
+    ],
+    "total": 3,
+    "created_at": "2026-06-07 00:56:18.972372+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "ade88b65-22db-4617-92cf-75d6f669c451",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 2,
+      "d100": 0
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d20",
+        "value": 13
+      },
+      {
+        "die": "d20",
+        "value": 11
+      }
+    ],
+    "total": 24,
+    "created_at": "2026-06-07 00:57:10.726323+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "e496f6fc-feaf-40f6-b29e-f09f738a0bf5",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 2,
+      "d100": 0
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d20",
+        "value": 2
+      },
+      {
+        "die": "d20",
+        "value": 10
+      }
+    ],
+    "total": 12,
+    "created_at": "2026-06-07 00:57:40.909576+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "cda82237-36b9-46d2-930f-ec178805aed7",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 10
+      }
+    ],
+    "total": 11,
+    "created_at": "2026-06-07 01:00:24.648274+00",
+    "label": "Scimitar",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "15c9d6fb-3f97-4d54-99ca-fcc25cf8c714",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 17
+      }
+    ],
+    "total": 20,
+    "created_at": "2026-06-07 01:00:45.467618+00",
+    "label": "CROSSBOW",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "db519fa6-6997-484e-b530-13d0647fa4a6",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d6": 1
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d6",
+        "value": 5
+      }
+    ],
+    "total": 5,
+    "created_at": "2026-06-07 01:00:55.558692+00",
+    "label": "CROSSBOW damage",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "96cd30ab-8ff9-44dc-a3d2-df177fa28ec6",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 9
+      }
+    ],
+    "total": 10,
+    "created_at": "2026-06-07 01:01:37.589335+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "f1508fe5-70cb-4539-9cfd-33c689dbe731",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 7
+      }
+    ],
+    "total": 8,
+    "created_at": "2026-06-07 01:01:48.408217+00",
+    "label": "Scimitar",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "7089d9e0-14c4-4bc9-bd24-1bb1745a1072",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 6
+      }
+    ],
+    "total": 9,
+    "created_at": "2026-06-07 01:01:57.34265+00",
+    "label": "CROSSBOW",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "a64cce40-35aa-4104-8c2f-20050c29ea9c",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 11
+      }
+    ],
+    "total": 12,
+    "created_at": "2026-06-07 01:02:08.545359+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "05842d9d-2ae1-42f6-9214-4d246fda1515",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 1,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 0,
+      "d100": 0
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d4",
+        "value": 3
+      }
+    ],
+    "total": 3,
+    "created_at": "2026-06-07 01:02:24.56125+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "8569cfa3-6432-41f2-80aa-bba2a077b620",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 3
+      }
+    ],
+    "total": 4,
+    "created_at": "2026-06-07 01:02:38.945881+00",
+    "label": "Scimitar",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "4f4d700b-fbc9-4e18-a3e1-e4c648725f2b",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 8
+      }
+    ],
+    "total": 11,
+    "created_at": "2026-06-07 01:02:52.331642+00",
+    "label": "CROSSBOW",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "bd25609d-6f7b-4e9e-bc25-a428aed7f446",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 4
+      }
+    ],
+    "total": 7,
+    "created_at": "2026-06-07 01:03:00.436756+00",
+    "label": "CROSSBOW",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "e16bc33a-0e24-4c74-a72a-bb9062130a9e",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 20
+      }
+    ],
+    "total": 21,
+    "created_at": "2026-06-07 01:03:16.219486+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "de71f258-7484-475a-aad4-3bfbcfcb899b",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 2,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 0,
+      "d100": 0
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d4",
+        "value": 1
+      },
+      {
+        "die": "d4",
+        "value": 1
+      }
+    ],
+    "total": 2,
+    "created_at": "2026-06-07 01:03:22.797594+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "0d289cab-204c-4219-b6c9-37892538d8cd",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 11
+      }
+    ],
+    "total": 12,
+    "created_at": "2026-06-07 01:03:39.382784+00",
+    "label": "Scimitar",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "0b36ad31-ee89-49d1-96c2-22b2e4526d5c",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 7
+      }
+    ],
+    "total": 8,
+    "created_at": "2026-06-07 01:03:48.813728+00",
+    "label": "Scimitar",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "9c37c01c-4d1f-47ea-9820-a1fb796ee04d",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 11
+      }
+    ],
+    "total": 14,
+    "created_at": "2026-06-07 01:04:02.563144+00",
+    "label": "CROSSBOW",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "6b9f204e-7001-45a1-853c-cc283cbe4f99",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d6": 1
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d6",
+        "value": 6
+      }
+    ],
+    "total": 6,
+    "created_at": "2026-06-07 01:04:05.852125+00",
+    "label": "CROSSBOW damage",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "d4f641f9-d946-4099-a4da-49b63617ba39",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 2,
+    "results": [
+      {
+        "die": "d20",
+        "value": 19
+      }
+    ],
+    "total": 21,
+    "created_at": "2026-06-07 01:04:29.801289+00",
+    "label": "Charisma check",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "fab825b2-b041-490f-853b-e461a6f98ffe",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": -2,
+    "results": [
+      {
+        "die": "d20",
+        "value": 20
+      }
+    ],
+    "total": 18,
+    "created_at": "2026-06-07 01:28:52.680397+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "aa0da3dd-75f1-4e58-9ea1-a485efbe4e06",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 3
+      }
+    ],
+    "total": 4,
+    "created_at": "2026-06-07 01:28:58.08653+00",
+    "label": "Wisdom check",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "2679aa80-3d91-4724-ab19-d0abeb7c8449",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 7
+      }
+    ],
+    "total": 8,
+    "created_at": "2026-06-07 01:29:06.406493+00",
+    "label": "Dexterity check",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "f9e1d676-2404-4913-b471-4ecbb82a6072",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 6
+      }
+    ],
+    "total": 7,
+    "created_at": "2026-06-07 01:29:22.613924+00",
+    "label": "Dexterity check",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "64e4f247-c810-4a24-80a8-de6c4798772b",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": -1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 5
+      }
+    ],
+    "total": 4,
+    "created_at": "2026-06-07 01:31:55.283352+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "dbee79de-d8b2-4ffe-8c5d-b74537b45cf8",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 4
+      }
+    ],
+    "total": 7,
+    "created_at": "2026-06-07 01:33:40.029699+00",
+    "label": "CROSSBOW",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "37d55080-ce62-45eb-b143-9745ba896d68",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": -1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 7
+      }
+    ],
+    "total": 6,
+    "created_at": "2026-06-07 01:35:09.338615+00",
+    "label": "NAVIGATION",
+    "character_id": null
+  },
+  {
+    "id": "bdd90d59-e386-4df9-8d5c-0946fd124fcd",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": -1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 19
+      }
+    ],
+    "total": 18,
+    "created_at": "2026-06-07 01:35:10.044067+00",
+    "label": "NAVIGATION",
+    "character_id": null
+  },
+  {
+    "id": "ca46b79f-784e-43e7-b9d9-022e2bb46119",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 13
+      }
+    ],
+    "total": 16,
+    "created_at": "2026-06-07 01:42:29.304043+00",
+    "label": "Initiative",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "1b1689bc-c1fd-4a90-9851-c7bc49e61f96",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 16
+      }
+    ],
+    "total": 17,
+    "created_at": "2026-06-07 01:42:31.346585+00",
+    "label": "Initiative",
+    "character_id": "60866f9f-b15e-4e43-91e4-4305fa13e588"
+  },
+  {
+    "id": "1faf7f56-e4bf-4549-8470-28b246c6b3a1",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 15
+      }
+    ],
+    "total": 16,
+    "created_at": "2026-06-07 01:42:35.930863+00",
+    "label": "Initiative",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "f21c10a2-7513-4c93-bdea-6bc6a7b2883d",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 5
+      }
+    ],
+    "total": 8,
+    "created_at": "2026-06-07 01:44:47.620735+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "b5547a6c-0b5e-49d7-9425-5df5a9d79ec7",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 19
+      }
+    ],
+    "total": 22,
+    "created_at": "2026-06-07 01:44:51.854982+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "056e7c16-5f19-48a5-b224-d84a3d6837bc",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 1,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 0,
+      "d100": 0
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d6",
+        "value": 5
+      }
+    ],
+    "total": 5,
+    "created_at": "2026-06-07 01:44:57.597056+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "4531080e-a6f3-4203-a6f1-d33243bd4a80",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 14
+      }
+    ],
+    "total": 17,
+    "created_at": "2026-06-07 01:45:59.675945+00",
+    "label": "Dexterity check",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "bda116f1-f85f-4ea7-b05e-3e3d5d0492e2",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": -1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 10
+      }
+    ],
+    "total": 9,
+    "created_at": "2026-06-07 01:47:24.664579+00",
+    "label": "Intelligence check",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "0b2efa43-7873-4358-895b-13ddfcace0b0",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 2,
+    "results": [
+      {
+        "die": "d20",
+        "value": 19
+      }
+    ],
+    "total": 21,
+    "created_at": "2026-06-07 01:47:27.389868+00",
+    "label": "Intelligence check",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "81993ff7-3e2a-4c8d-ae9f-8d329b0fd6c2",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 17
+      }
+    ],
+    "total": 20,
+    "created_at": "2026-06-07 01:49:59.624305+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "7ea7789e-edc8-4adf-8f27-87d77cb3f6e5",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 8
+      }
+    ],
+    "total": 11,
+    "created_at": "2026-06-07 01:50:04.61203+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "4748181a-2037-481b-b3f1-931f278fb9f7",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 1,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 0,
+      "d100": 0
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d6",
+        "value": 2
+      }
+    ],
+    "total": 2,
+    "created_at": "2026-06-07 01:50:07.660399+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "acc7cac3-e6a9-48f3-af97-402c38b5f594",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 9
+      }
+    ],
+    "total": 12,
+    "created_at": "2026-06-07 01:50:37.579487+00",
+    "label": "CROSSBOW",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "a2f448fd-8b2a-4e6a-9a4f-bffd0d20923f",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 19
+      }
+    ],
+    "total": 22,
+    "created_at": "2026-06-07 01:50:38.37553+00",
+    "label": "CROSSBOW",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "9e1fb114-d70d-4837-a319-1439602defe4",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d4": 0,
+      "d6": 2,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 0,
+      "d100": 0
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d6",
+        "value": 5
+      },
+      {
+        "die": "d6",
+        "value": 2
+      }
+    ],
+    "total": 7,
+    "created_at": "2026-06-07 01:50:44.344069+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "7d987ac3-adc7-4ef4-a7a8-e2d084bb7a4d",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 2
+      }
+    ],
+    "total": 3,
+    "created_at": "2026-06-07 01:51:57.434654+00",
+    "label": "Blowgun",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "fa8b013e-d6df-47b0-a0da-fbf1c663c64c",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 0,
+      "d100": 1
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d100",
+        "value": 59
+      }
+    ],
+    "total": 59,
+    "created_at": "2026-06-07 01:53:39.637212+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "8b0dcbb0-5c45-4d97-aeda-6ee156d3aecf",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 13
+      }
+    ],
+    "total": 16,
+    "created_at": "2026-06-07 01:53:45.717662+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "ca44e782-bfee-4dcf-83c4-0b98bf4bc393",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 7
+      }
+    ],
+    "total": 10,
+    "created_at": "2026-06-07 01:53:49.986372+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "2ecb6f15-9b81-459b-97ad-b3b993396ae5",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 1,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 0,
+      "d100": 0
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d6",
+        "value": 3
+      }
+    ],
+    "total": 3,
+    "created_at": "2026-06-07 01:53:53.034655+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "14d2d845-51e4-40ed-8f60-a13856b4e6d1",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 6
+      }
+    ],
+    "total": 9,
+    "created_at": "2026-06-07 01:54:06.315564+00",
+    "label": "CROSSBOW",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "c8780ecb-f92f-4dd6-9351-9588900a45f8",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 3
+      }
+    ],
+    "total": 4,
+    "created_at": "2026-06-07 01:54:25.234905+00",
+    "label": "Blowgun",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "0dc71686-9701-41e2-9d0b-ee5d32a338c5",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 15
+      }
+    ],
+    "total": 16,
+    "created_at": "2026-06-07 01:54:34.640087+00",
+    "label": "Blowgun",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "8f9762b6-3abe-4e99-bef7-cbe2438a4097",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 0,
+      "d100": 1
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d100",
+        "value": 76
+      }
+    ],
+    "total": 76,
+    "created_at": "2026-06-07 01:55:23.002426+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "c648a5f0-1c9d-43e4-ace7-960759b303f4",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 4
+      }
+    ],
+    "total": 7,
+    "created_at": "2026-06-07 01:55:30.04294+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "01dd6abb-5041-48af-9122-f7ea177d81ca",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 14
+      }
+    ],
+    "total": 17,
+    "created_at": "2026-06-07 01:55:33.552268+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "e3f4963f-7ecb-4491-881f-faa1f289633b",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 1,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 0,
+      "d100": 0
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d6",
+        "value": 4
+      }
+    ],
+    "total": 4,
+    "created_at": "2026-06-07 01:55:37.235292+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "895bb5de-9464-4d3d-8ea3-176616dc3282",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 3
+      }
+    ],
+    "total": 6,
+    "created_at": "2026-06-07 01:55:55.29799+00",
+    "label": "CROSSBOW",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "ca75c0df-4b4b-4404-b0a4-fa16ed1fe404",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 5
+      }
+    ],
+    "total": 6,
+    "created_at": "2026-06-07 01:56:13.58983+00",
+    "label": "Scimitar",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "c53514d8-eb4b-4abc-a0fd-fc5db391c667",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 16
+      }
+    ],
+    "total": 17,
+    "created_at": "2026-06-07 01:56:24.921727+00",
+    "label": "Scimitar",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "99a3e887-8b95-4593-82eb-5b6cfe369fe1",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d6": 1
+    },
+    "modifier": 2,
+    "results": [
+      {
+        "die": "d6",
+        "value": 3
+      }
+    ],
+    "total": 5,
+    "created_at": "2026-06-07 01:56:28.793412+00",
+    "label": "Scimitar damage",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "6022f0a7-3600-42e5-b6d4-2657e7f93665",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d20",
+        "value": 1
+      }
+    ],
+    "total": 1,
+    "created_at": "2026-06-07 01:57:13.418838+00",
+    "label": "Wisdom check",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "ffdc2fb7-a30a-408a-bea0-5d8869da37d1",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 20
+      }
+    ],
+    "total": 21,
+    "created_at": "2026-06-07 01:57:21.128938+00",
+    "label": "Wisdom check",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "cee2b658-a7ec-40d7-ac86-b66a86b25ece",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 2,
+    "results": [
+      {
+        "die": "d20",
+        "value": 20
+      }
+    ],
+    "total": 22,
+    "created_at": "2026-06-07 02:03:38.194023+00",
+    "label": "Intelligence check",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "f70f63ba-8c90-4dcd-b318-31f630fde9fe",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": -1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 9
+      }
+    ],
+    "total": 8,
+    "created_at": "2026-06-07 02:05:09.164877+00",
+    "label": "Intelligence check",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "d26cef4c-02d9-45d3-bcfa-517c9e502360",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 2,
+    "results": [
+      {
+        "die": "d20",
+        "value": 19
+      }
+    ],
+    "total": 21,
+    "created_at": "2026-06-07 02:05:11.763783+00",
+    "label": "Intelligence check",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "40ddae30-1ff6-4357-956e-0350cb3235c3",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 9
+      }
+    ],
+    "total": 10,
+    "created_at": "2026-06-07 02:05:38.961223+00",
+    "label": "Dexterity check",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "30628bc9-cbfc-40f9-8dbd-1c925f0e76bf",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 3,
+    "results": [
+      {
+        "die": "d20",
+        "value": 5
+      }
+    ],
+    "total": 8,
+    "created_at": "2026-06-07 02:05:42.013677+00",
+    "label": "Dexterity check",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "4557b396-80df-4cc2-9dea-98153101fa32",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "485c3d59-9c58-4d0b-92c0-6b6080ebf3c3",
+    "display_name": "rbuckwild",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 0,
+      "d100": 1
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d100",
+        "value": 67
+      }
+    ],
+    "total": 67,
+    "created_at": "2026-06-07 02:06:47.684726+00",
+    "label": null,
+    "character_id": null
+  },
+  {
+    "id": "b3571678-a984-4141-8c3e-17ebaf4a07a0",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 1
+      }
+    ],
+    "total": 2,
+    "created_at": "2026-06-07 02:09:54.006555+00",
+    "label": "Wisdom check",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "60c78c18-7722-40ec-ac8e-9cbfbd2d4338",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d20",
+        "value": 7
+      }
+    ],
+    "total": 7,
+    "created_at": "2026-06-07 02:09:55.359978+00",
+    "label": "Wisdom check",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "b9c537f1-41b7-476f-a0c8-b6c7d345da8e",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "4d143a09-8c7c-4968-aaaf-3ad957130e47",
+    "display_name": "hartre53",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 2,
+    "results": [
+      {
+        "die": "d20",
+        "value": 11
+      }
+    ],
+    "total": 13,
+    "created_at": "2026-06-07 02:19:01.969367+00",
+    "label": "Intelligence check",
+    "character_id": "42c27d14-d519-4142-a352-e0696b399783"
+  },
+  {
+    "id": "66b38e67-34a8-4422-9645-5d23e9230cfb",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d20",
+        "value": 20
+      }
+    ],
+    "total": 20,
+    "created_at": "2026-06-07 02:21:43.834347+00",
+    "label": "Wisdom check",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "371a2421-3dc5-4b91-9bb1-396892e6428b",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": -1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 18
+      }
+    ],
+    "total": 17,
+    "created_at": "2026-06-07 02:24:14.37055+00",
+    "label": "Strength check",
+    "character_id": "8e96c8c4-df7a-4a6f-86e1-6b85f6bad371"
+  },
+  {
+    "id": "50fe8061-ce46-41d2-994c-a9f3ce7aa1b7",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": -1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 19
+      }
+    ],
+    "total": 18,
+    "created_at": "2026-06-07 02:49:54.654476+00",
+    "label": "NAVIGATION",
+    "character_id": null
+  },
+  {
+    "id": "c4fcc220-5e9d-4c63-8087-1ea60e530a9e",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d4": 0,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 1,
+      "d100": 0
+    },
+    "modifier": -1,
+    "results": [
+      {
+        "die": "d20",
+        "value": 5
+      }
+    ],
+    "total": 4,
+    "created_at": "2026-06-07 02:50:03.332812+00",
+    "label": "NAVIGATION",
+    "character_id": null
+  },
+  {
+    "id": "b92fe7ea-391a-43d1-bb64-e5618a1fa74b",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "fed3dfa5-518b-4b3d-a442-a22773e86c2f",
+    "display_name": "unmutual.",
+    "pending": {
+      "d20": 1
+    },
+    "modifier": 2,
+    "results": [
+      {
+        "die": "d20",
+        "value": 8
+      }
+    ],
+    "total": 10,
+    "created_at": "2026-06-07 02:53:24.686189+00",
+    "label": "SPELLS",
+    "character_id": "f8e63493-c3b5-4f09-b030-768d4f93d26f"
+  },
+  {
+    "id": "0057bc98-1a38-4b7d-bcc4-9fa4f2a59740",
+    "session_id": "c4680e8d-75c3-41c7-99cf-fc7ee8102225",
+    "user_id": "bbb0fdee-f023-41a3-9df7-bbd2d1167cac",
+    "display_name": "spacetadpole",
+    "pending": {
+      "d4": 1,
+      "d6": 0,
+      "d8": 0,
+      "d10": 0,
+      "d12": 0,
+      "d20": 0,
+      "d100": 0
+    },
+    "modifier": 0,
+    "results": [
+      {
+        "die": "d4",
+        "value": 1
+      }
+    ],
+    "total": 1,
+    "created_at": "2026-06-07 03:27:40.071979+00",
+    "label": null,
+    "character_id": null
+  }
+]

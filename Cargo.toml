@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/tabula-core",
+    "kernel",
+    "vendor/ttrpg-dice-engine",
+]
+# Plugins are separate workspaces: they compile to wasm32-wasip2 components and
+# must not participate in the native workspace's feature unification.
+exclude = ["plugins/counter", "plugins/shadowdark"]
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+uuid = { version = "1", features = ["v4", "v7", "serde"] }
+thiserror = "2"
+chrono = { version = "0.4", features = ["serde"] }
+tabula-core = { path = "crates/tabula-core" }
+ttrpg-dice-engine = { path = "vendor/ttrpg-dice-engine" }

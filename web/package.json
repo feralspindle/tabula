@@ -1,0 +1,28 @@
+{
+  "name": "tabula-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fontsource/fraunces": "^5.2.5",
+    "@fontsource/spectral": "^5.2.5",
+    "@fontsource/ibm-plex-mono": "^5.2.5",
+    "@supabase/supabase-js": "^2.47.10",
+    "pinia": "^3.0.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "tailwindcss": "^4.1.0",
+    "vite": "^7.0.0",
+    "vitest": "^3.2.4"
+  }
+}
