@@ -28,3 +28,8 @@ supabase = ["dep:postgres", "dep:tokio-postgres-rustls", "dep:rustls", "dep:dote
 [[bin]]
 name = "session_analysis"
 required-features = ["supabase"]
+
+# vendored, intentionally unlinted: CI excludes this crate from clippy, but
+# path deps do not get cap-lints, so silence it at the source
+[lints.clippy]
+all = "allow"
