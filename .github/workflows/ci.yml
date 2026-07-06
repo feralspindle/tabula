@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, staging]
   pull_request:
 
 env:
@@ -45,4 +45,6 @@ jobs:
       - run: npm ci
         working-directory: web
       - run: npm run build
+        working-directory: web
+      - run: npm test
         working-directory: web

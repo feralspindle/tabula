@@ -28,7 +28,7 @@
     "OPENROUTER_API_KEY": "${localEnv:OPENROUTER_SANDBOX_API_KEY}"
   },
   "forwardPorts": [5173, 8080],
-  "postCreateCommand": "sudo /usr/local/bin/post-create-root.sh && cd web && npm ci",
+  "postCreateCommand": "sudo /usr/local/bin/post-create-root.sh && git config core.hooksPath .githooks && cd web && npm ci",
   "postStartCommand": "sudo /usr/local/bin/init-firewall.sh",
   "customizations": {
     "vscode": {
